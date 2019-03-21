@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/my_always_visible_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan masukkan nilai rupiah" />
+
+    <EditText
+        android:id="@+id/editRupiah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="319dp"
+        android:orientation="vertical"
+        android:padding="10px">
+
+        <RadioButton
+            android:id="@+id/radioDolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dolar" />
+
+        <RadioButton
+            android:id="@+id/radioEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Euro" />
+
+        <Button
+            android:id="@+id/btnOkKonversi"
+            android:layout_width="wrap_content"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/txtHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil" />
+    </RadioGroup>
+</LinearLayout>
